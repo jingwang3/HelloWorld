@@ -19,7 +19,7 @@ public class DisplayMessageActivity extends Activity {
 		setContentView(R.layout.activity_display_message);
 		
 		
-		// Get the message from the intent
+		// Get the message from the intent no change
 		Intent intent = getIntent();
 		String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 		
